@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const morgan = require("morgan");
-const rolesRouter = require("./src/routes/roles");
+const rolesRouter = require("./routes/roles");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
